@@ -37,7 +37,7 @@ end)
 RegisterNetEvent("esx_paniikki:viesti_toteutus")
 AddEventHandler("esx_paniikki:viesti_toteutus", function(etunimi, sukunimi)
 
-ESX.ShowNotification( 'Poliisi '.. etunimi ..' '.. sukunimi ..' painoi paniikkinappia!')
+  ESX.ShowAdvancedNotification('Hätäkeskus ilmoittaa', '', ''.. etunimi ..' '.. sukunimi ..' painoi paniikkinappia!', 'CHAR_CALL911' , 0)
   samppi44 = 0
   
   
