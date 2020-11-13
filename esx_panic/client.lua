@@ -37,7 +37,7 @@ end)
 RegisterNetEvent("esx_paniikki:viesti_toteutus")
 AddEventHandler("esx_paniikki:viesti_toteutus", function(etunimi, sukunimi)
 
-  exports['mythic_notify']:DoHudText('error', 'Poliisi '.. etunimi ..' '.. sukunimi ..' painoi paniikkinappia!')
+ESX.ShowNotification( 'Poliisi '.. etunimi ..' '.. sukunimi ..' painoi paniikkinappia!')
   samppi44 = 0
   
   
